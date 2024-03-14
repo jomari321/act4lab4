@@ -12,8 +12,8 @@ const Header = props => {
 
   return (
     <View style={styles.Header}>
-      <Image source={logo} style={{ width: 125, height: 125, marginRight: 10 }} />
-      <Text style={styles.HeaderTitle}>{props.title}Corp</Text>
+      <Image source={logo} style={{ width: 155, height: 155, marginTop: 50}} />
+      <Text style={styles.HeaderTitle}>{props.title}TEAM</Text>
       
     </View>
   );
@@ -22,10 +22,11 @@ const Header = props => {
 const styles = StyleSheet.create({
   Header: {
     width: '100%',
-    height: 120,
+    height: 100,
     alignItems: 'center',
     justifyContent: 'center',
-    marginTop: 120,
+    marginTop: 20,
+    backgroundColor: '#F8A77A',
   },
   HeaderTitle: {
     fontSize: 24,

@@ -22,7 +22,7 @@ const Page1 = () => {
             style={styles.image} // Apply styles to the image
           />
           {/* Your other page content here */}
-          <Button title="Logout" onPress={handleLogout} color="#1A2F36" />
+          <Button title="Logout" onPress={handleLogout} color="#F8A77A" />
         </View>
       </View>
     </SafeAreaProvider>
@@ -44,6 +44,7 @@ const styles = StyleSheet.create({
     width: 200, 
     height: 200, 
     resizeMode: 'contain', 
+    marginBottom: 15,
   },
 });
 

@@ -59,7 +59,7 @@ const HomeScreen = ({ navigation }) => {
       <Header />
       <View style={styles.content}>
       <h1 style={{ color: '#C76D31' }}>Let's get Started</h1>
-        <Button title="Login" onPress={handleLoginPress} color="#1A2F36" />
+        <Button title="Login" onPress={handleLoginPress} color="red" />
       </View>
       <StatusBar style="auto" />
     </View>
@@ -76,5 +76,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     paddingHorizontal: 20,
+    backgroundColor: '#F8A77A',
   },
 });
