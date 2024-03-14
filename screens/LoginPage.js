@@ -46,18 +46,12 @@ const LoginPage = () => {
         </View>
 
         {/* Login button */}
-        <TouchableOpacity
-          style={[styles.button, { backgroundColor: '#F8A77A', width: '45%' }]}
-          onPress={handleLogin}
-        >
+        <TouchableOpacity style={[styles.button, { backgroundColor: '#1A2F36', width: '45%' }]} onPress={handleLogin}>
           <Text style={styles.buttonText}>Login</Text>
         </TouchableOpacity>
 
         {/* Sign up button */}
-        <TouchableOpacity
-          style={[styles.button, { backgroundColor: '#F8A77A', width: '45%' }]}
-          onPress={handleSignUp}
-        >
+        <TouchableOpacity style={[styles.button, { backgroundColor: '#1A2F36', width: '45%' }]} onPress={handleSignUp}>
           <Text style={styles.buttonText}>Sign Up</Text>
         </TouchableOpacity>
 
